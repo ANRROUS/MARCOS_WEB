@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="IMG/logo.jpg">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+    <title>LuxeStays</title>
+
+    <style>
+        body {
+            padding-top: 100px;
+        }
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #f8f9fa;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../IMG/logo.png" alt="Logo" class="d-inline-block align-text-top" style="height: 100px; width: 150px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a>
+                        <a class="nav-link" href="#negocios">Para Negocios</a>
+                        <a class="nav-link" href="#fyhs">Para Ti</a>
+                        <a class="nav-link" href="#preguntas">Preguntas</a>
+                        <a class="nav-link" href="#descarga">Descarga</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="Inicio" class="py-5"
+        style="background-image: url('../IMG/inicio_imagen.jpeg'); background-size: cover; background-position: center; color: white;">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center" style="min-height: 400px;">
+                <div class="col-md-6 text-center">
+                    <div class="p-3" style="background-color: rgba(0, 0, 0, 0.5); border-radius: 10px;">
+                        <h2 class="text-warning">Desbloquea el lujo con cada estadía</h2>
+                        <p class="mt-3">LUXESTAYS te ofrece más que una simple reserva. Acumula puntos en cada estadía y
+                            canjéalos por noches gratis, upgrades de habitación, tratamientos de spa y mucho más.
+                            Personaliza tu experiencia y crea recuerdos inolvidables con nuestro programa de
+                            recompensas.</p>
+                        <!-- Botón para abrir el modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#videoModal">
+                            Ver Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel">Conocenos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ROhQ79d-uNU"
+                        title="Video de LuxeStays" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <aside class="container py-5">
+        <article class="negocios" id="negocios">
+            <h2 class="text-warning text-center">¿Por qué elegir Luxe Stays?</h2>
+            <div class="row">
+                <div class="col-md-12 d-flex align-items-center">
+                    <img src="../IMG/imagen_negocio.jpg" alt="Imagen de Luxe Stays" class="img-fluid me-3 rounded" style="max-width: 250px; height: auto;">
+                    <p class="fs-5" style="text-align: justify;">Para sus necesidades de vacaciones o viajes de negocios en el área del Valle Central, Luxe Stays ofrece alojamientos boutique de lujo. Nuestro equipo profesional está disponible los siete días de la semana para garantizar que se cumplan todas sus expectativas mientras se hospeda en nuestro impresionante portafolio de destinos turísticos.</p>
+                </div>
+            </div>
+            <section class="mt-4 text-center">
+                <p class="fs-5">¿Deseas adquirir alguna propiedad?</p>
+                <button class="btn btn-warning fw-bold text-dark" onclick="location.href='#form'">Regístrate</button>
+            </section>
+        </article>
+        
+        
+        
+        <article class="solicitud mt-5" id="form">
+            <h3 class="text-warning">Regístrate y espera la solicitud para adquirir una de nuestras propiedades</h3>
+            <form class="bg-opacity-dark p-4 rounded border border-warning">
+                <input type="text" class="form-control mb-3" placeholder="Nombre del comprador">
+                <input type="text" class="form-control mb-3" placeholder="Apellido del comprador">
+                
+                <!-- Campo de género con espacio extra y alineación vertical -->
+                <div class="mb-3 d-flex align-items-center">
+                    <label class="form-label me-3" style="min-width: 80px;">Género:</label>
+                    <div class="form-check form-check-inline align-self-center">
+                        <input class="form-check-input" type="radio" name="genero" id="masculino" value="masculino">
+                        <label class="form-check-label" for="masculino">Masculino</label>
+                    </div>
+                    <div class="form-check form-check-inline align-self-center">
+                        <input class="form-check-input" type="radio" name="genero" id="femenino" value="femenino">
+                        <label class="form-check-label" for="femenino">Femenino</label>
+                    </div>
+                </div>
+                <input type="email" class="form-control mb-3" placeholder="Correo de contacto">
+                <input type="tel" class="form-control mb-3" placeholder="Teléfono de contacto">
+                <textarea class="form-control mb-3" rows="4" placeholder="Detalles adicionales"></textarea>
+                <button class="btn btn-warning fw-bold text-dark">Enviar solicitud</button>
+            </form>
+        </article>
+        <article class="fy mt-5" id="fyhs">
+            <h2 class="text-warning text-center mb-4">Descubre Propiedades</h2>
+            <div class="row">
+                <!-- Propiedad 1 -->
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="property-card bg-secondary p-3 rounded h-100 d-flex flex-column justify-content-between">
+                            <div class="img-container ratio ratio-4x3 mb-2 bg-dark rounded">
+                                <img src="../IMG/fyh1.jpg" alt="Propiedad 1" class="img-fluid rounded">
+                            </div>
+                            <div>
+                                <p class="text-warning fw-bold mb-1">Sacramento Retreat Home</p>
+                                <p class="text-white mb-1">| Piscina | Fogón | Garaje</p>
+                                <p class="text-white mb-0">Ubicación: Sacramento County, California, EE.UU.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Propiedad 2 -->
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="property-card bg-secondary p-3 rounded h-100 d-flex flex-column justify-content-between">
+                            <div class="img-container ratio ratio-4x3 mb-2 bg-dark rounded">
+                                <img src="../IMG/fyh2.jpg" alt="Propiedad 2" class="img-fluid rounded">
+                            </div>
+                            <div>
+                                <p class="text-warning fw-bold mb-1">Luxe Getaway House</p>
+                                <p class="text-white mb-1">| Piscina Privada | Jardín Secreto | Wi-Fi Gratis</p>
+                                <p class="text-white mb-0">Ubicación: San Francisco, California, EE.UU.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Propiedad 3 -->
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="property-card bg-secondary p-3 rounded h-100 d-flex flex-column align-items-start">
+                            <div class="img-container ratio ratio-4x3 mb-2 bg-dark rounded">
+                                <img src="../IMG/fyh3.jpg" alt="Propiedad 3" class="img-fluid rounded">
+                            </div>
+                            <div>
+                                <p class="text-warning fw-bold mb-1">Charming Cottage</p>
+                                <p class="text-white mb-1">| Vista al Lago | Ideal para Familias | Cocina Equipada</p>
+                                <p class="text-white mb-0">Ubicación: Lake Tahoe, California, EE.UU.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+        
+                <!-- Propiedad 4 -->
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="property-card bg-secondary p-3 rounded h-100 d-flex flex-column justify-content-between">
+                            <div class="img-container ratio ratio-4x3 mb-2 bg-dark rounded">
+                                <img src="../IMG/fyh4.jpg" alt="Propiedad 4" class="img-fluid rounded">
+                            </div>
+                            <div>
+                                <p class="text-warning fw-bold mb-1">Stylish Urban Loft</p>
+                                <p class="text-white mb-1">| Estilo Moderno | Acceso a Transporte Público | Balcón</p>
+                                <p class="text-white mb-0">Ubicación: Los Ángeles, California, EE.UU.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Propiedad 5 -->
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="property-card bg-secondary p-3 rounded h-100 d-flex flex-column justify-content-between">
+                            <div class="img-container ratio ratio-4x3 mb-2 bg-dark rounded">
+                                <img src="../IMG/fyh5.jpg" alt="Propiedad 5" class="img-fluid rounded">
+                            </div>
+                            <div>
+                                <p class="text-warning fw-bold mb-1">Beachfront Paradise</p>
+                                <p class="text-white mb-1">| Acceso Directo a la Playa | Barbacoa | Vista al Mar</p>
+                                <p class="text-white mb-0">Ubicación: Santa Mónica, California, EE.UU.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Propiedad 6 -->
+                <div class="col-md-4 mb-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="property-card bg-secondary p-3 rounded h-100 d-flex flex-column align-items-start">
+                            <div class="img-container ratio ratio-4x3 mb-2 bg-dark rounded">
+                                <img src="../IMG/fyh6.jpg" alt="Propiedad 6" class="img-fluid rounded">
+                            </div>
+                            <div>
+                                <p class="text-warning fw-bold mb-1">Luxury Family Retreat</p>
+                                <p class="text-white mb-1">| Jardín Amplio | Sala de Juegos | Spa Privado</p>
+                                <p class="text-white mb-0">Ubicación: Napa Valley, California, EE.UU.</p>
+                                <p class="text-white small mb-0">Relájate y disfruta de un fin de semana inolvidable con tu familia.</p>
+                            </div>
+                        </div>
+                        
+                    </a>
+                </div>
+            </div>
+        </article>
+        
+
+        <div id="preguntas"></div><br>
+        <!--Preguntas -->
+        <div class="container mt-6">
+            <h2 class="text-center h1">Preguntas Frecuentes</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="faqAccordion" class="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn text-golden" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne" class="small">
+                                        ¿Cuál es el horario de atención?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                                <div class="card-body small">
+                                    Nuestro equipo profesional está disponible los siete días de la semana para garantizar que se
+                                    cumplan todas sus expectativas durante su estadía en nuestra impresionante cartera de destinos
+                                    de viaje.
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn text-golden collapsed small" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        ¿Qué te ofrece Luxe Stays?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                                <div class="card-body small">
+                                    El tiempo es esencial. Así es como garantizamos una perfecta experiencia de principio a fin.
+                                    <br>
+                                    <div class="container mt-5">
+                                        <h1 class="text-primary">Servicios Ofrecidos</h1>
+                                        <div class="mt-4">
+                                            <h2>Incorporación simplificada</h2>
+                                            <ul class="list-group small">
+                                                <li class="list-group-item">Proceso de incorporación controlado por el propietario</li>
+                                                <li class="list-group-item">Tours virtuales en 3D de las casas</li>
+                                                <li class="list-group-item">Redacción personalizada</li>
+                                                <li class="list-group-item">Escritura personalizada</li>
+                                                <li class="list-group-item">Listado optimizado de primer nivel</li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="mt-4">
+                                            <h2>Cuidado en los detalles</h2>
+                                            <ul class="list-group small">
+                                                <li class="list-group-item">Tecnología para precios dinámicos</li>
+                                                <li class="list-group-item">Limpieza periódica y experta.</li>
+                                                <li class="list-group-item">Proporcionar las comodidades para los visitantes.</li>
+                                                <li class="list-group-item">Procesamiento de pagos</li>
+                                                <li class="list-group-item">Inspección de visitantes y cobertura de daños.</li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="mt-4">
+                                            <h2>Cuidando a nuestro cliente</h2>
+                                            <ul class="list-group small">
+                                                <li class="list-group-item">Retenciones de propiedad ilimitada</li>
+                                                <li class="list-group-item">Sin acuerdos establecidos</li>
+                                                <li class="list-group-item">Empleados locales en cada mercado</li>
+                                                <li class="list-group-item">Mantenimiento e inspecciones de rutina.</li>
+                                                <li class="list-group-item">Asistencia con permisos e impuestos.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn text-golden collapsed small" data-toggle="collapse" data-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree">
+                                        ¿Cuáles son los beneficios para los propietarios de las viviendas?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                                <div class="card-body small">
+                                    <div class="container mt-5">
+                                        <h1 class="text-center">Beneficios para propietarios de viviendas</h1>
+        
+                                        <div class="row mt-4">
+                                            <div class="col-6">
+                                                <img src="../IMG/bolsa.PNG" class="img-fluid rounded" alt="Imagen 1">
+                                                Gestión de ingresos ejemplar<br>
+                                                Utilice nuestros programas adaptables y nuestro sistema de gestión de ingresos
+                                                desarrollado internamente para optimizar sus ingresos por alquiler y aumentar sus ingresos
+                                                anuales en un 20 %.
+                                            </div>
+                                            <div class="col-6">
+                                                <img src="../IMG/capacidad.PNG" class="img-fluid rounded" alt="Imagen 2">
+                                                Fuertes capacidades de distribución<br>
+                                                Optimice los listados con una experiencia de marca consistente en más de 50 canales
+                                                de distribución, incluidos LVH, VRBO, La Cure, Airbnb y Marriott Homes and Villas.
+                                            </div>
+                                            <div class="col-6">
+                                                <img src="../IMG/seguridad.PNG" class="img-fluid rounded" alt="Imagen 3">
+                                                Total seguridad y cuidado.<br>
+                                                Examinamos a los visitantes y gestionamos las reservas de principio a fin,
+                                                utilizando dispositivos inteligentes para proporcionar alertas en el momento para la
+                                                detección de ruido y dispositivos.
+                                            </div>
+                                            <div class="col-6">
+                                                <img src="../IMG/comunidad.PNG" class="img-fluid rounded" alt="Imagen 4">
+                                                Asociados de la comunidad<br>
+                                                Como buenos vecinos, nuestros equipos locales cuidan de su casa como si fuera la
+                                                nuestra y colaboran estrechamente con el vecindario para abordar los problemas de
+                                                manera proactiva.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <img src="../IMG/preguntas.jpg" class="img-fluid w-100 rounded" alt="Imagen de una persona">
+                </div>
+            </div>
+        </div><br>
+        
+    
+        <div id="descarga"></div><br>
+        <!-- Descarga -->
+        <div class="container mt-5">
+            <h2 class="text-center">Descarga Nuestra Aplicación</h2>
+            <div class="row align-items-center mt-4">
+                <div class="col-md-6">
+                    <div class="">
+                        <img src="../IMG/app.png" class="img-fluid rounded" alt="Imagen de la aplicación">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>¡Vive la experiencia de viaje definitiva!</h3>
+                    <p>
+                        Descarga la aplicación de LuxeStays para acceder a toda la información de como encontrar 
+                        tu nuevo destino turístico.
+                        Mantente al tanto de las últimas noticias, promociones y más, todo desde la comodidad de 
+                        tu dispositivo.
+                    </p>
+                    <p>
+                        ¡No esperes más! Descargala ya desde los siguientes sitios web
+                    </p>
+                    <div class="d-flex">
+                        <a href="#descarga" class="btn btn-primary me-2">Descargar en App Store</a>
+                        <a href="#descarga" class="btn btn-success">Descargar en Google Play</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+        <footer class="bg-dark text-light py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Contacto</h5>
+                        <ul class="list-unstyled">
+                            <li><strong>Teléfono:</strong> +51 123 456 789</li>
+                            <li><strong>Email:</strong> contacto@luxestays.com</li>
+                            <li><strong>Dirección:</strong> Av. Principal 123, Lima, Perú</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Enlaces Útiles</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#Inicio" class="text-light">Inicio</a></li>
+                            <li><a href="#fyhs" class="text-light">Para Negocios</a></li>
+                            <li><a href="#preguntas" class="text-light">Preguntas Frecuentes</a></li>
+                            <li><a href="#descarga" class="text-light">Descarga nuestra App</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Mensaje</h5>
+                        <p>¡Gracias por elegir LUXESTAYS! Nos esforzamos por brindarte la mejor experiencia de hospedaje. Si tienes alguna consulta, no dudes en contactarnos.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <p>&copy; 2024 LUXESTAYS. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+        <a href="https://wa.me/51972199525" target="_blank" class="position-fixed" style="bottom: 20px; right: 20px;">
+            <img src="../IMG/wsplogo.png" alt="WhatsApp" width="60px">
+        </a>
+</body>
+</html>
